@@ -1,0 +1,46 @@
+header {
+  border: 1px;
+}
+
+nav ul{
+  list-style-type: none;
+  display: inline;
+}
+
+nav ul li {
+ display: block;
+ float: left;
+ padding-right: 2em;
+}
+
+.disabled{
+  color: grey;
+}
+
+.active{
+  color: yellow;
+}
+
+.redme{
+  color: red;
+}
+
+.blueme{
+  color: blue;
+}
+
+.promo{
+  color: gold;
+  font-weight: bold;
+}
+
+input{
+font-size: 25px;
+}
+
+
+
+
+
+
+
