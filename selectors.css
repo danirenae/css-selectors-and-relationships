@@ -1,5 +1,10 @@
-header {
+
+h1 {
+  color: purple
+  border-style: solid;
   border: 1px;
+  border-color: purple;
+  border-radius: 5px;
 }
 
 nav ul{
@@ -15,6 +20,10 @@ nav ul li {
 
 .disabled{
   color: grey;
+}
+
+a ~ .disabled {
+  color: purple;
 }
 
 .active{
@@ -38,6 +47,11 @@ input{
 font-size: 25px;
 }
 
+h4 {
+  border-style: solid;
+  border-color: purple;
+  border-radius: 20px;
+}
 
 
 
